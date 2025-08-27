@@ -1,0 +1,126 @@
+:root {
+  /* === Colors (corporate & semantic) === */
+  /* Base palette */
+  --color-primary-100: #e0f2ff;
+  --color-primary: #1a73e8;
+  --color-primary-600: #155fc1;
+  --color-secondary: #d81e5b;
+
+   /* <!-- Semantic usage --> */
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text-primary: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e7eb;
+  --color-error: #dc2626;
+  --color-success: #16a34a;
+
+/* == change this colors to the brand you working with == */
+
+  /* === Shadows / Elevation === */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.15);
+
+  /* === Typography (fonts + sizing) === */
+  --font-heading: "Poppins", system-ui, sans-serif;    /* H1–H3 */
+  --font-subheading: "Raleway", system-ui, sans-serif; /* H4–H6, section titles */
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; /* paragraphs */
+  --font-caption: "Roboto", ui-sans-serif, system-ui;  /* small labels, tooltips */
+  --font-mono: "Fira Code", monospace;                 /* code, dashboards */
+  --font-caution: "Noto Sans", ui-sans-serif, system-ui; /* alerts, warnings */
+
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-lg: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-loose: 1.75;
+
+  /* === Spacing Tokens === */
+  --spacing-0: 0;
+  --spacing-1: 0.25rem; /* 4px */
+  --spacing-2: 0.5rem; /* 8px */
+  --spacing-3: 0.75rem; /* 12px */
+  --spacing-4: 1rem; /* 16px */
+  --spacing-6: 1.5rem; /* 24px */
+  --spacing-8: 2rem; /* 32px */
+  --spacing-12: 3rem; /* 48px */
+
+  /* === Radius & Sizing === */
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 14px;
+
+  --border-width: 1px;
+  --container-max-width: 1200px;
+
+  /* === Z-index Layers === */
+  --z-index-default: 1;
+  --z-index-sticky: 100;
+  --z-index-nav: 200;
+  --z-index-toast: 400;
+  --z-index-modal: 500;
+
+  /* === Motion (transitions) === */
+  --ease-standard: cubic-bezier(0.2, 0.6, 0.2, 1);
+  --dur-fast: 0.2s;
+  --dur-standard: 0.28s;
+  --dur-slow: 0.5s;
+
+ /* === Breakpoints (Responsive) === */
+  --screen-sm: 640px;
+  --screen-md: 768px;
+  --screen-lg: 1024px;
+  --screen-xl: 1280px;
+  --screen-2xl: 1536px;
+
+  /* === Grid / Layout === */
+  --grid-columns: 12;
+  --grid-gutter: 1rem; /* 16px */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+
+  /* === Opacity === */
+  --opacity-disabled: 0.4;
+  --opacity-hover: 0.85;
+  --opacity-overlay: 0.6;
+
+  /* === Gradients === */
+  --gradient-primary: linear-gradient(135deg, #1a73e8, #155fc1);
+  --gradient-secondary: linear-gradient(135deg, #d81e5b, #f06292);
+
+  /* === Blur / Backdrop === */
+  --blur-sm: 4px;
+  --blur-md: 8px;
+  --blur-lg: 16px;
+  --backdrop-blur: 20px;
+
+  /* === Icon Sizes === */
+  --icon-sm: 16px;
+  --icon-md: 20px;
+  --icon-lg: 24px;
+  --icon-xl: 32px;
+
+  /* === Button Heights === */
+  --btn-sm: 32px;
+  --btn-md: 40px;
+  --btn-lg: 48px;
+
+  /* === Animation Keyframes (short names only) === */
+  --anim-fade: fade-in 0.3s var(--ease-standard);
+  --anim-slide-up: slide-up 0.3s var(--ease-standard);
+  --anim-bounce: bounce 1s infinite;
+
+  /* === Timing Functions === */
+  --ease-linear: linear;
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+}
